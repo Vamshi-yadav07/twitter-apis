@@ -1,0 +1,37 @@
+POST  http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "username": "adam_richard",
+    "password": "richard_567",
+    "name": "Adam Richard",
+    "gender": "male"
+}
+### API-1
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username": "JoeBiden",
+    "password": "biden@123"
+}
+### API-2
+
+GET  http://localhost:3000/user/tweets/feed
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJuYW1lIjoiSm9lIEJpZGVuIiwidXNlcm5hbWUiOiJKb2VCaWRlbiIsInBhc3N3b3JkIjoiJDJiJDEwJDJhcmU2QmE2OW9pL0NhaTRhVC9WTS50N0FPN1RzUXgvLk9nei43WEc0cWp1TWlsMHY4MGFxIiwiZ2VuZGVyIjoibWFsZSIsImlhdCI6MTcxNjk2Mjc2OX0.nWGQVKl125lhQAN7GDQ0KUwiPZFVlM9VBvNURwYYfXc
+
+### API-3
+
+
+
+GET  http://localhost:3000/user/following
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJuYW1lIjoiSm9lIEJpZGVuIiwidXNlcm5hbWUiOiJKb2VCaWRlbiIsInBhc3N3b3JkIjoiJDJiJDEwJDJhcmU2QmE2OW9pL0NhaTRhVC9WTS50N0FPN1RzUXgvLk9nei43WEc0cWp1TWlsMHY4MGFxIiwiZ2VuZGVyIjoibWFsZSIsImlhdCI6MTcxNjk2Mjc2OX0.nWGQVKl125lhQAN7GDQ0KUwiPZFVlM9VBvNURwYYfXc
+
+
+
+
+
+GET  http://localhost:3000/user/followers/
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJuYW1lIjoiSm9lIEJpZGVuIiwidXNlcm5hbWUiOiJKb2VCaWRlbiIsInBhc3N3b3JkIjoiJDJiJDEwJDJhcmU2QmE2OW9pL0NhaTRhVC9WTS50N0FPN1RzUXgvLk9nei43WEc0cWp1TWlsMHY4MGFxIiwiZ2VuZGVyIjoibWFsZSIsImlhdCI6MTcxNjk2Mjc2OX0.nWGQVKl125lhQAN7GDQ0KUwiPZFVlM9VBvNURwYYfXc
